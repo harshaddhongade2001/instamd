@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "version": ">= 12.4.1",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+           
+    "android": {
+      "buildType": "apk"
+    },
+      "distribution": "internal"
+    },
+
+     
+
+
+
+    "preview": {
+      "distribution": "internal"
+      
+    },
+
+    "preview2": {
+      "android": {
+        "gradleCommand": ":app:assembleRelease"
+      }
+    },
+
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

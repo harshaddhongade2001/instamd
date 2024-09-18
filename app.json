@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.harshaddhongade2023.instamd"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "03ac3d0d-f1f3-44fc-93cc-79d5838c10b3"
+      }
+    },
+    "owner": "sprintofy"
   }
 }
